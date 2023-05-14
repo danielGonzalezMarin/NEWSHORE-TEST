@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'CaveatBrush-Regular';
+    src: url('../../assets/CaveatBrush-Regular.ttf');
+  }
+
+  /* Reset css */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, 
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+      display: block;
+  }
+  body {
+      line-height: 1;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  blockquote, q {
+      quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: '';
+      content: none;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+
+  /* end reset css */
+
+  @media (max-width: 700px) {
+
+    .button{
+        background: #feb1ff;
+        border-radius: 11px;
+        margin-left: 20px;
+        border-color: #feb1ff;
+        color: white;
+        font-family: 'CaveatBrush-Regular';
+        font-size: 14pt;
+        height: 30px;
+        width: 100px;
+    }
+    
+    .color_bg {
+        background-color: #c5ffb8;
+    }
+    
+    .departing_styles{
+        font-family: sans-serif;
+        font-size: 14pt;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+    .destination {
+        color: #55fff8;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xx-large;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .header {
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../assets/tailandia-krabi.webp");
+    }
+    
+    .input {
+        border-radius: 10px;
+        border-color: white;
+        color: black;
+        font-family: 'CaveatBrush-Regular';
+        text-transform: uppercase;
+        width: 80px;
+        height: 20px;
+        opacity: 0.7;
+    }
+    
+    .origin{
+        color: #55fff8;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xx-large;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .title {
+        color: white;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xxx-large;
+        padding-bottom: 70px;
+        padding-top: 62px;
+        text-align: center;
+    
+    }
+    
+    .section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .upper_text {
+        text-transform: uppercase;
+    }
+    
+  }
+
+  @media (min-width: 701px) {
+    .button{
+        background: #feb1ff;
+        border-radius: 11px;
+        margin-left: 20px;
+        border-color: #feb1ff;
+        color: white;
+        font-family: 'CaveatBrush-Regular';
+        font-size: 14pt;
+        height: 30px;
+        width: 100px;
+    }
+    
+    .color_bg {
+        background-color: #c5ffb8;
+    }
+    
+    .departing_styles{
+        font-family: sans-serif;
+        font-size: 14pt;
+        padding-left: 30px;
+        padding-top: 15px;
+    }
+    .destination {
+        color: #55fff8;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xx-large;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .header {
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../assets/tailandia-krabi.webp");
+    }
+    
+    .input {
+        border-radius: 10px;
+        border-color: white;
+        color: black;
+        font-family: 'CaveatBrush-Regular';
+        text-transform: uppercase;
+        width: 80px;
+        height: 20px;
+        opacity: 0.7;
+    }
+    
+    .origin{
+        color: #55fff8;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xx-large;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .title {
+        color: white;
+        font-family: 'CaveatBrush-Regular';
+        font-size: xxx-large;
+        padding-bottom: 160px;
+        padding-top: 62px;
+        text-align: center;
+    
+    }
+    
+    .section {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .upper_text {
+        text-transform: uppercase;
+    }
+  }
+

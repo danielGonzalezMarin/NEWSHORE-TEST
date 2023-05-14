@@ -1,0 +1,21 @@
+<header class="header">
+    <h1 class="title">NEWSHORE ADMISSION TEST</h1> 
+    <section class="section">
+        <label for="origin" class="origin" for="origin">Origin</label>
+        <input class="input" id="origin" class="input" type="text" required maxlength="3" [formControl]="origin">  
+         <label class="destination" for="destination">Destination</label> 
+         <input class="input" id="destination" class="input" type="text" required maxlength="3" [formControl]="destination">
+        <button class="button" id="search " (click)="getJourney()" type="button" clickable>Search</button>
+        <p id="errorMsg"></p>
+    </section>
+</header>
+<section class="departing_styles color_bg" *ngIf="flighsFinal">
+    <h2 class="departing_styles">Departing flight</h2>
+    <p class="upper_text departing_styles">Origin: {{origin.value}}</p>
+    <p class="upper_text departing_styles">Destination: {{destination.value}}</p>
+    <p class="departing_styles" id="price">Total Price: {{ totalPrice }}</p>
+    <button class="button" (click)="getPriceCOP()">Price in COP</button>
+    <button class="button" (click)="getPriceAUD()">Price in AUD</button>
+    <p class="departing_styles" *ngFor="let flight of flighsFinal"> {{ flight|json }}</p>
+</section>
+
